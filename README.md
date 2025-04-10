@@ -14,7 +14,7 @@
 
 🔹 **Generador de Ideas Aleatorias**  
 Una app divertida que genera ideas locas mezclando frases al azar.  
-👉 [`Ver proyecto`](https://xfrank004.github.io/portfolio/generador/generador.html)
+👉 [`Ver proyecto`](https://xfrank004.github.io/portfolio/generador.html)
 
 🔹 **Dashboard del Clima**  
 Consulta el clima actual de cualquier ciudad, visual moderno y uso de APIs.  
