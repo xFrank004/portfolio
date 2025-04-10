@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+body::after {
+  content: "?";
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  font-size: 200px;
+  color: #888;
+  opacity: 0.1;
+  animation: girarPregunta 20s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+}
+
+@keyframes girarPregunta {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  color: #00d1b2;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0099cc;
+}
+
+a {
+  color: #00d1b2;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
