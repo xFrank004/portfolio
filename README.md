@@ -28,7 +28,7 @@ Encontrá datos e imágenes de películas con la API de OMDb.
 
 ## 📫 Contacto
 
-- 📧 Email: [franco@email.com](pousofran@gmail.com)
+- 📧 Email: [pousofran@gmail.com](pousofran@gmail.com)
 - 📷 Instagram: [@frann.rpouso](https://www.instagram.com/frann.rpouso/)
 - 💻 GitHub: [github.com/xfrank004](https://github.com/xFrank004)
 
